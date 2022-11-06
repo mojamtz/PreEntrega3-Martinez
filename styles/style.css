@@ -570,7 +570,7 @@ button:hover{
 .img__container1{
     background-color: aqua;
     height: 75%;
-    background-image: url(/images/frontlogo.png);
+    background-image: url(../images/frontlogo.png);
     background-size: contain;
     outline: solid white 1px;
     border-radius: 5px;
@@ -614,7 +614,7 @@ button:hover{
 .img__container2{
     background-color: aqua;
     height: 75%;
-    background-image: url(/images/nft2.png);
+    background-image: url(../images/nft2.png);
     background-size: contain;
     outline: solid white 1px;
     border-radius: 5px;
@@ -623,7 +623,7 @@ button:hover{
 .img__container3{
     background-color: aqua;
     height: 75%;
-    background-image: url(/images/nft3.png);
+    background-image: url(../images/nft3.png);
     background-size: contain;
     outline: solid white 1px;
     border-radius: 5px;
@@ -631,7 +631,7 @@ button:hover{
 .img__container4{
     background-color: aqua;
     height: 75%;
-    background-image: url(/images/nft4.png);
+    background-image: url(../images/nft4.png);
     background-size: contain;
     outline: solid white 1px;
     border-radius: 5px;
@@ -639,7 +639,7 @@ button:hover{
 .img__container5{
     background-color: aqua;
     height: 75%;
-    background-image: url(/images/nft5.png);
+    background-image: url(../images/nft5.png);
     background-size: contain;
     outline: solid white 1px;
     border-radius: 5px;
@@ -647,7 +647,7 @@ button:hover{
 .img__container6{
     background-color: aqua;
     height: 75%;
-    background-image: url(/images/nft6.png);
+    background-image: url(../images/nft6.png);
     background-size: contain;
     outline: solid white 1px;
     border-radius: 5px;
@@ -655,7 +655,7 @@ button:hover{
 .img__container7{
     background-color: aqua;
     height: 75%;
-    background-image: url(/images/nft7.png);
+    background-image: url(../images/nft7.png);
     background-size: contain;
     outline: solid white 1px;
     border-radius: 5px;
@@ -663,7 +663,7 @@ button:hover{
 .img__container8{
     background-color: aqua;
     height: 75%;
-    background-image: url(/images/nft8.png);
+    background-image: url(../images/nft8.png);
     background-size: contain;
     outline: solid white 1px;
     border-radius: 5px;
@@ -671,7 +671,7 @@ button:hover{
 .img__container9{
     background-color: aqua;
     height: 75%;
-    background-image: url(/images/nft9.png);
+    background-image: url(../images/nft9.png);
     background-size: contain;
     outline: solid white 1px;
     border-radius: 5px;
@@ -679,7 +679,7 @@ button:hover{
 .img__container2{
     background-color: aqua;
     height: 75%;
-    background-image: url(/images/nft2.png);
+    background-image: url(../images/nft2.png);
     background-size: contain;
     outline: solid white 1px;
     border-radius: 5px;
