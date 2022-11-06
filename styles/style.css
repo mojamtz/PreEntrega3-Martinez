@@ -276,77 +276,7 @@ button:hover{
     }
 }
 
-@media screen and (max-width:1200px){
-    .grid__container{
-        display: grid;
-        grid-template-areas: 
-        "nav"
-        "title"
-        "model"
-        "model"
-        "infos"
-        "disc"
-        "mint";
-        text-align: center;
-    }
 
-    .long__message{
-        font-size: 13px;
-        padding-bottom: 20px;
-    }
-
-    .item2{
-        height: 40vh;
-    }
-
-    .item2 .subtitle__container{
-        height: 5%;
-        font-size: small;
-    }
-
-    .item2 .title__container{
-        height: 5%;
-        font-size: small;
-    }
-
-    .item3{
-        height: 60vh;
-    }
-
-    .disc{
-        font-size: small;
-    }
-
-    .logo__container{
-        display: flex;
-        justify-content: center;
-    }
-
-    .logo__container img{
-        height: 3vh;
-        width: 3vh;
-    }
-
-    .main__links{
-        font-size: small;
-    }
-
-    .button__container{
-        padding: 0;
-    }
-
-
-
-    button{
-        padding: 1px 3px;
-        font-size: smaller;
-    }
-
-    .tapa{
-        height: 11%;
-    }
-
-}
 
 /* BOOTSTRAP STUFF */
 
@@ -513,7 +443,7 @@ button:hover{
 .items, .owners, .floor, .volume{
     outline: solid white 2px;
     display: flex;
-    width: 10%;
+    width: 15%;
     flex-direction: column;
     padding: 20px;
     margin: 10px;
@@ -730,7 +660,7 @@ body{
 }
 
 .qcontainer .num{
-    width: 4%;
+    width: 6%;
     color: black;
     background-color: white;
     padding: 5px;
@@ -767,7 +697,7 @@ body{
 
 .acontainer .num{
 /*     outline: solid red;
- */    width: 4%;
+ */ width: 6%;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     padding: 5px;
@@ -957,3 +887,153 @@ textarea{
     }
 
 /* ABOUT THE PROJECT END */
+
+/* MEDIA QUERIES START */
+
+@media screen and (max-width:1200px){
+    .grid__container{
+        display: grid;
+        grid-template-areas: 
+        "nav"
+        "title"
+        "model"
+        "model"
+        "infos"
+        "disc"
+        "mint";
+        text-align: center;
+    }
+
+    .long__message{
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+
+    .item2{
+        height: 40vh;
+    }
+
+    .item2 .subtitle__container{
+        height: 5%;
+        font-size: small;
+    }
+
+    .item2 .title__container{
+        height: 5%;
+        font-size: small;
+    }
+
+    .item3{
+        height: 60vh;
+    }
+
+    .disc{
+        font-size: small;
+    }
+
+    .logo__container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo__container img{
+        height: 3vh;
+        width: 3vh;
+    }
+
+    .main__links{
+        font-size: small;
+    }
+
+    .button__container{
+        padding: 0;
+    }
+
+
+
+    button{
+        padding: 1px 3px;
+        font-size: smaller;
+    }
+
+    .tapa{
+        height: 11%;
+    }
+
+    .qcontainer{
+        width: 85%;
+    }
+
+    .acontainer{
+        width: 85%;
+    }
+
+    .qcontainer .num{
+        width: 12%;
+    }
+
+    .acontainer .num{
+        width: 12%;
+    }
+
+    .login-card{
+        width: 400px;
+    }
+
+    .img__container img{
+        height: 89px;
+    }
+
+    .item{
+        height: 254px;
+        width: 190px;
+    }
+
+    .cards__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .items, .owners, .floor, .volume{
+        width: 30%;
+    }
+
+    .project__numbers .qty{
+        font-size: medium;
+    }
+
+    .first__row{
+        font-size: 12px;
+    }
+
+    .second__row{
+        font-size: 15px;
+    }
+
+    .data__container{
+        height: 1%;
+    }
+    .policy__num{
+        font-size: x-small;
+    }
+
+    .logos{
+        width: 100%;
+    }
+
+    .collection__name{
+        padding: 10px;
+        font-size: medium;
+    }
+
+    .data__container .first__row{
+        margin: 0;
+    }
+
+    .sale__sign{
+        width: 42%;
+        padding: 0;
+    }
+
+}
+
+/* MEDIA QUERIES END */
