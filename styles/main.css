@@ -744,12 +744,12 @@ textarea {
     padding-bottom: 20px; }
   .item2 {
     height: 40vh; }
-  .item2 .subtitle__container {
-    height: 5%;
-    font-size: small; }
-  .item2 .title__container {
-    height: 5%;
-    font-size: small; }
+    .item2 .subtitle__container {
+      height: 5%;
+      font-size: small; }
+    .item2 .title__container {
+      height: 5%;
+      font-size: small; }
   .item3 {
     height: 60vh; }
   .disc {
