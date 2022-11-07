@@ -1,0 +1,21 @@
+/* Declaración de variables */
+$main-color: rgb(34, 34, 34);
+$accent-color: black;
+$sale-btn-color-bg: #443800;
+$sale-btn-color-letter: rgba(255,255,0,0.678);
+$nft-height: 400px;
+$nft-width: $nft-height - 100;
+
+/* MIXIN */
+@mixin re-color1 ($bg, $letter) {
+    background-color: $bg;
+    color: $letter;
+}
+
+@import "general";
+@import "landing";
+@import "about";
+@import "gallery";
+@import "FAQ";
+@import "theproject";
+@import "mediaQuerys"

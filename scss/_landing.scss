@@ -1,0 +1,250 @@
+.grid__container{
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav nav"
+    "title model model infos"
+    "disc disc disc disc"
+    "mint mint mint mint";
+    text-align: center;
+/*     outline: solid red;
+ */}
+
+.nav__bar{
+    grid-area: nav;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $main-color;
+    color: white;
+    li{
+        &:hover{
+            font-weight: bolder;
+        }
+    }
+}
+
+.item2{
+    grid-area: title;
+    height: 70vh;
+/*     outline: solid red;
+ */    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: black;
+        .subtitle__container{
+        /*     outline: solid purple;
+         */    max-width: fit-content;
+            height: 30%;
+            width: 90%;
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .title__container{
+            max-width: fit-content;
+        /*     outline: solid green;
+         */    height: 30%;
+            width: 70%;
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        
+        }
+        .legend__container{
+            max-width: fit-content;
+        /*     outline: solid green;
+         */    height: 30%;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+}
+
+.title__container{
+    span{
+        font-style: italic;
+        animation-name: aparecer;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-delay: 1s;
+    }
+}
+
+.item3{
+    grid-area: model;
+    position: relative;
+}
+
+.infos{
+    grid-area: infos;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: $accent-color;
+
+}
+
+.disc{
+    grid-area: disc;
+}
+
+.mint{
+    grid-area: mint;
+}
+
+.logo__container{
+    /*     outline: solid red;
+     */    width: 20%;
+    /*     outline: solid red;
+     */    display: flex;
+        justify-content: center;
+        a{
+            /*     outline: solid green;
+             */    display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            img{
+                width: 30px;
+            }
+    }
+
+    .main__links{
+        /*     outline: solid purple;
+         */    width: 60%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            ul{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            /*     outline: solid salmon;
+             */    list-style-type: none;
+            }
+            a{
+                color: white;
+                text-decoration: none;
+            }
+}
+
+.button__container{
+    /*     outline: solid blue;
+     */    width: 20%;
+    }
+
+    button{
+        background-color: rgb(92, 0, 212);
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: white;
+        border-style: none;
+        font-weight: bolder;
+        transition: background-color 0.5s;
+        &:hover{
+            background-color: rgb(153, 75, 255);
+        }
+    }
+
+    .long__message{
+        /*     outline: solid aqua;
+         */    max-width: fit-content;
+            height: 100%;
+            width: 80%;
+            text-align: justify;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .tapa{
+            position: absolute;
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            height: 10%;
+            bottom: 0;
+        }
+
+        .disc{
+            /*     outline: solid red;
+             */    text-align: center;
+                padding: 3vh;
+                font-weight: bolder;
+                background-color: rgb(37, 37, 37);
+                color: white;
+            
+            }
+
+            .logo__mint{
+                padding: 3vh;
+                img{
+                    height: 7vh;
+                }
+            }
+
+            .mint{
+                background-image: url("../images/halftone_background_12.jpg");
+                background-size: cover;
+            }
+            
+            .blocks__container{
+                display: flex;
+                justify-content: center;
+                
+                padding: 4%;
+            }
+            
+            .blocks{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                width: 90%;
+                justify-content: space-evenly;
+            }
+            
+            .block{
+                background-color: black;
+                color: white;
+                width: 120px;
+                height: 90px;
+                padding: 5px;
+            /*     padding: 10px 50px;
+             */    border-radius: 10px;
+                font-weight: bolder;
+                font-size: larger;
+                margin: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                transition: scale 0.5s;
+                &:hover{
+                    scale: 120%;
+                }
+            }
+            @keyframes aparecer{
+                0%{
+                    opacity: 100%;}
+            
+                50%{
+                    opacity:0%;
+                }
+            
+                100%{
+                    opacity:100%;
+                }
+            }
+
+.fade-up{
+    display: flex;
+}

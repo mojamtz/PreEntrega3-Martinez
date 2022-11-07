@@ -1,0 +1,239 @@
+.main__image img{
+    height: 110%;
+    border-radius: 50px;
+    border: solid white;
+}
+
+.general__info{
+/*     outline: solid red;
+ */    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px;
+}
+
+
+
+.policy, .main__image, .socials{
+    width: 30%;
+/*     outline: solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.policy__num{
+    color: rgb(44, 110, 207);
+    background-color: rgb(7, 20, 58);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.logos{
+/*     outline: solid magenta;
+ */    color: white;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.collection__name{
+    text-align: center;
+/*     outline: solid yellowgreen;
+ */    border: solid black;
+    color: black;
+    background-color: white;
+/*     background-image: url(grid/collectionbanner.jpg); */
+    background-size: cover;
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.project__numbers{
+/*     outline: solid red;
+ */    color: white;
+    width: 70%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 50px;
+}
+
+.items, .owners, .floor, .volume{
+    outline: solid white 2px;
+    display: flex;
+    width: 15%;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.general__numbers{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.project__numbers .qty{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.project__numbers .text{
+    color: gray;
+}
+
+.slogan{
+    text-align: center;
+    padding: 20px;
+    color: gray;
+    background-color: black;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.cards__container{
+/*     outline: solid red;
+ */    margin: 50px;
+    width: 6;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 40px;
+
+}
+
+.item{
+    outline: solid white 1px;
+    height: $nft-height;
+    width: $nft-width;
+    border-radius: 5px;
+}
+
+.img__container1{
+    background-color: aqua;
+    height: 75%;
+    background-image: url(../images/frontlogo.png);
+    background-size: contain;
+    outline: solid white 1px;
+    border-radius: 5px;
+}
+
+.data__container{
+/*     outline: solid red;
+ */    background-color: black;
+    height: 10%;
+}
+
+.data__container .first__row{
+/*     background-color: salmon;
+ */    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.data__container .second__row{
+/*     background-color: aquamarine;
+ */    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+/*     outline: solid aqua;
+ */}
+
+.sale__sign{
+    color: $sale-btn-color-letter;
+    background-color: $sale-btn-color-bg;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin: px;
+}
+
+.img__container2{
+    background-color: aqua;
+    height: 75%;
+    background-image: url(../images/nft2.png);
+    background-size: contain;
+    outline: solid white 1px;
+    border-radius: 5px;
+}
+
+.img__container3{
+    background-color: aqua;
+    height: 75%;
+    background-image: url(../images/nft3.png);
+    background-size: contain;
+    outline: solid white 1px;
+    border-radius: 5px;
+}
+.img__container4{
+    background-color: aqua;
+    height: 75%;
+    background-image: url(../images/nft4.png);
+    background-size: contain;
+    outline: solid white 1px;
+    border-radius: 5px;
+}
+.img__container5{
+    background-color: aqua;
+    height: 75%;
+    background-image: url(../images/nft5.png);
+    background-size: contain;
+    outline: solid white 1px;
+    border-radius: 5px;
+}
+.img__container6{
+    background-color: aqua;
+    height: 75%;
+    background-image: url(../images/nft6.png);
+    background-size: contain;
+    outline: solid white 1px;
+    border-radius: 5px;
+}
+.img__container7{
+    background-color: aqua;
+    height: 75%;
+    background-image: url(../images/nft7.png);
+    background-size: contain;
+    outline: solid white 1px;
+    border-radius: 5px;
+}
+.img__container8{
+    background-color: aqua;
+    height: 75%;
+    background-image: url(../images/nft8.png);
+    background-size: contain;
+    outline: solid white 1px;
+    border-radius: 5px;
+}
+.img__container9{
+    background-color: aqua;
+    height: 75%;
+    background-image: url(../images/nft9.png);
+    background-size: contain;
+    outline: solid white 1px;
+    border-radius: 5px;
+}
+.img__container2{
+    background-color: aqua;
+    height: 75%;
+    background-image: url(../images/nft2.png);
+    background-size: contain;
+    outline: solid white 1px;
+    border-radius: 5px;
+}
