@@ -118,6 +118,10 @@
     height: $nft-height;
     width: $nft-width;
     border-radius: 5px;
+    transition: scale 0.3s;
+    &:hover{
+        scale: 105%;
+    }
 }
 
 .img__container1{

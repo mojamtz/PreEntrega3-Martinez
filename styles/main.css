@@ -232,9 +232,6 @@ button {
 .fade-up {
   display: flex; }
 
-span .material-symbols-outline .nembre {
-  background-color: #5c00d4; }
-
 .container-fluid {
   /*     outline: solid green;
      */ }
@@ -420,7 +417,10 @@ span .material-symbols-outline .nembre {
   outline: solid white 1px;
   height: 400px;
   width: 300px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  transition: scale 0.3s; }
+  .item:hover {
+    scale: 105%; }
 
 .img__container1 {
   background-color: aqua;
@@ -578,6 +578,8 @@ span .material-symbols-outline .nembre {
   .q a {
     text-decoration: none;
     color: white; }
+    .q a:hover {
+      font-weight: bolder; }
 
 .megaacontainer {
   display: flex;
@@ -747,6 +749,98 @@ textarea {
   .discordlogo__container img {
     height: 70px;
     border-radius: 50px; }
+
+.form__container {
+  background-color: #7260b4;
+  height: 400px;
+  text-align: center;
+  position: relative; }
+
+.form__body {
+  width: 50%;
+  height: 100px;
+  background-color: gray;
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+  top: 30px;
+  left: 300px; }
+  .form__body img {
+    height: 40px; }
+
+.login-card {
+  width: 550px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 4rem;
+  border-radius: 70px;
+  position: relative; }
+
+.login-card-logo {
+  text-align: center; }
+  .login-card-logo img {
+    width: 50px; }
+
+.login-card-header {
+  text-align: center; }
+
+.login-card-form {
+  text-align: center; }
+  .login-card-form input[type="text"] {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 10px; }
+  .login-card-form input[type="password"] {
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-radius: 10px; }
+
+.login-card-footer {
+  text-align: center; }
+
+.socials-container {
+  text-align: center; }
+
+.button-container {
+  padding: 10px; }
+
+#sign-in-button {
+  width: 210px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  background: black;
+  color: aliceblue;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.form-item, .form-item-2 {
+  padding: 10px; }
+
+.form-item, .form-item-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.contact__body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(-45deg, #612e1e, #581630, #135b75, #0c614d);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.form-item input {
+  padding: 5px; }
+
+p {
+  padding: 10px; }
+
+textarea {
+  border-radius: 6px; }
 
 @media screen and (max-width: 1200px) {
   .grid__container {
