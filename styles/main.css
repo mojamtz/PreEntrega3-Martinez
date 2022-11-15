@@ -2,6 +2,9 @@
 /* Declaración de variables */
 /* MIXIN */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap");
+html {
+  scroll-behavior: smooth; }
+
 * {
   margin: 0;
   padding: 0;
@@ -228,6 +231,9 @@ button {
 
 .fade-up {
   display: flex; }
+
+span .material-symbols-outline .nembre {
+  background-color: #5c00d4; }
 
 .container-fluid {
   /*     outline: solid green;
@@ -823,4 +829,6 @@ textarea {
   .material-symbols-outlined {
     color: white; }
   .nav__bar {
-    padding-top: 15px; } }
+    padding-top: 15px; }
+  span .material-symbols-outline .nembre {
+    background-color: #5c00d4; } }
