@@ -2,6 +2,8 @@
 /* Declaración de variables */
 /* MIXIN */
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins&family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Permanent+Marker&family=Poppins&family=Righteous&display=swap");
 html {
   scroll-behavior: smooth; }
 
@@ -13,7 +15,7 @@ html {
 
 .grid__container {
   display: grid;
-  grid-template-areas: "nav nav nav nav" "title model model infos" "disc disc disc disc" "mint mint mint mint";
+  grid-template-areas: "nav nav nav nav" "namae namae namae namae" "title model model infos" "disc disc disc disc" "mint mint mint mint";
   text-align: center;
   /*     outline: solid red;
  */ }
@@ -29,6 +31,14 @@ html {
   color: white; }
   .nav__bar li:hover {
     font-weight: bolder; }
+
+.namae {
+  grid-area: namae;
+  color: white;
+  background-color: black;
+  padding-top: 40px;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 30px; }
 
 .mobile {
   display: none; }
@@ -758,7 +768,7 @@ textarea {
 @media screen and (max-width: 1200px) {
   .grid__container {
     display: grid;
-    grid-template-areas: "nav" "title" "model" "model" "infos" "disc" "mint";
+    grid-template-areas: "nav" "namae" "title" "model" "model" "infos" "disc" "mint";
     text-align: center; }
   .long__message {
     font-size: 16px;

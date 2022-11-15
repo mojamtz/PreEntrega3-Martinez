@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Permanent+Marker&family=Poppins&family=Righteous&display=swap');
+
 .grid__container{
     display: grid;
     grid-template-areas: 
     "nav nav nav nav"
+    "namae namae namae namae"
     "title model model infos"
     "disc disc disc disc"
     "mint mint mint mint";
     text-align: center;
 /*     outline: solid red;
  */}
+
+
 
 .nav__bar{
     grid-area: nav;
@@ -24,6 +30,15 @@
         }
     }
     
+}
+
+.namae{
+    grid-area: namae;
+    color: white;
+    background-color: black;
+    padding-top: 40px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 30px;
 }
 
 .mobile{
