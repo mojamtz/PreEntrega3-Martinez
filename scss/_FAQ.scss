@@ -39,8 +39,11 @@
 
 .q{
     width: 50%;
-/*     outline: solid green;
- */}
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
 
 .megaacontainer{
     display: flex;
@@ -62,6 +65,7 @@
     align-items: center;
     padding: 1.5%;
     margin: 10px;
+    scroll-behavior: smooth;
     .num{
         /*     outline: solid red;
          */ width: 6%;

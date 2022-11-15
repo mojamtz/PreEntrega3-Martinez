@@ -13,7 +13,7 @@
     }
 
     .long__message{
-        font-size: 13px;
+        font-size: 16px;
         padding-bottom: 20px;
     }
 
@@ -144,5 +144,22 @@
         width: 42%;
         padding: 0;
     }
+
+    .mobile{
+        display: inline;
+    }
+
+    .large{
+        display: none;
+    }
+
+    .material-symbols-outlined{
+        color: white;
+    }
+
+    .nav__bar{
+        padding-top: 15px;
+    }
+    
 
 }

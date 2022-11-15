@@ -27,6 +27,9 @@
   .nav__bar li:hover {
     font-weight: bolder; }
 
+.mobile {
+  display: none; }
+
 .item2 {
   grid-area: title;
   height: 70vh;
@@ -132,7 +135,10 @@
 .button__container {
   /*     outline: solid blue;
      */
-  width: 20%; }
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
 button {
   background-color: #5c00d4;
@@ -562,9 +568,10 @@ button {
     text-align: center; }
 
 .q {
-  width: 50%;
-  /*     outline: solid green;
- */ }
+  width: 50%; }
+  .q a {
+    text-decoration: none;
+    color: white; }
 
 .megaacontainer {
   display: flex;
@@ -584,7 +591,8 @@ button {
   justify-content: space-around;
   align-items: center;
   padding: 1.5%;
-  margin: 10px; }
+  margin: 10px;
+  scroll-behavior: smooth; }
   .acontainer .num {
     /*     outline: solid red;
          */
@@ -740,7 +748,7 @@ textarea {
     grid-template-areas: "nav" "title" "model" "model" "infos" "disc" "mint";
     text-align: center; }
   .long__message {
-    font-size: 13px;
+    font-size: 16px;
     padding-bottom: 20px; }
   .item2 {
     height: 40vh; }
@@ -807,4 +815,12 @@ textarea {
     margin: 0; }
   .sale__sign {
     width: 42%;
-    padding: 0; } }
+    padding: 0; }
+  .mobile {
+    display: inline; }
+  .large {
+    display: none; }
+  .material-symbols-outlined {
+    color: white; }
+  .nav__bar {
+    padding-top: 15px; } }
