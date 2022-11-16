@@ -858,4 +858,5 @@ textarea {
   span .material-symbols-outline .nembre {
     background-color: #5c00d4; }
   .blank {
-    display: none; } }
+    display: none;
+    outline: none; } }
