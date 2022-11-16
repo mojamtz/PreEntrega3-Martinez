@@ -15,7 +15,7 @@ html {
 
 .grid__container {
   display: grid;
-  grid-template-areas: "nav nav nav nav" "namae namae namae namae" "title model model infos" "disc disc disc disc" "mint mint mint mint";
+  grid-template-areas: "nav nav nav nav" "namae namae namae namae" "title model model infos" "blank blank blank blank" "disc disc disc disc" "mint mint mint mint";
   text-align: center;
   /*     outline: solid red;
  */ }
@@ -80,7 +80,8 @@ html {
     width: 70%;
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    text-align: justify; }
 
 .title__container span {
   font-style: italic;
@@ -105,6 +106,11 @@ html {
 
 .disc {
   grid-area: disc; }
+
+.blank {
+  grid-area: blank;
+  background-color: black;
+  padding: 12px; }
 
 .mint {
   grid-area: mint; }
@@ -174,6 +180,8 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  .long__message span {
+    display: inline; }
 
 .tapa {
   position: absolute;

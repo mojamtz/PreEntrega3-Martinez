@@ -7,6 +7,7 @@
     "nav nav nav nav"
     "namae namae namae namae"
     "title model model infos"
+    "blank blank blank blank"
     "disc disc disc disc"
     "mint mint mint mint";
     text-align: center;
@@ -84,6 +85,7 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            text-align: justify;
         }
 }
 
@@ -118,9 +120,17 @@
     grid-area: disc;
 }
 
+.blank{
+    grid-area: blank;
+    background-color: black;
+    padding: 12px;
+}
+
 .mint{
     grid-area: mint;
 }
+
+
 
 .logo__container{
     /*     outline: solid red;
@@ -189,6 +199,9 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            span{
+                display: inline;
+            }
         }
 
         .tapa{
