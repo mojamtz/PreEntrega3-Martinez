@@ -110,7 +110,7 @@ html {
 .blank {
   grid-area: blank;
   background-color: black;
-  padding: 12px; }
+  padding: 21px; }
 
 .mint {
   grid-area: mint; }
@@ -856,4 +856,6 @@ textarea {
   .nav__bar {
     padding-top: 15px; }
   span .material-symbols-outline .nembre {
-    background-color: #5c00d4; } }
+    background-color: #5c00d4; }
+  .blank {
+    display: none; } }
